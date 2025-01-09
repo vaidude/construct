@@ -1,1 +1,1 @@
-web: gunicorn construct.wsgi --log-file -
+web: gunicorn construct.wsgi.application
